@@ -1,3 +1,121 @@
-body {
-	color : blue;
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+h1{
+	float: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 175%;
+}
+
+body{
+	font-family: sans-serif,Georgia;
+	/*margin: 20px;*/
+	background-color:#ccffff;
+}
+
+.row{
+	width: 100%;
+	
+}
+
+.item{
+	font-size: 125%;
+	font-weight: bold;
+	width:28%;
+	height: 15%;
+	/*margin-right: 15px;*/
+	padding-top: 15px;
+	text-align: center;
+	/*border:1px solid black;*/
+	position: absolute;
+	top:0;
+	right: 0;
+
+}
+
+#b1{
+	background-color: #ff66ff;
+	color: red;
+}
+
+#b2{
+	background-color: #ff704d;
+	color:blue;
+}
+
+#b3{
+	background-color: pink;
+	color:black;
+}
+
+.box{
+	
+	
+}
+
+p{
+	position: relative;
+	background-color: #00ff99;
+	height: 280px;
+	overflow: auto;
+	border: 1px solid black;
+	margin: 10px 20px 10px 20px;
+	padding: 50px 20px 10px 20px;
+}
+
+/********** Large Devices ***************/
+
+@media(min-width: 992px){
+
+	/*[class^="col-"],[class*=" col-"]*/.col-lg-4{
+
+		float: left;
+		
+	}
+
+	
+	.col-lg-4 {
+		width: 33.33%;
+	}
+}
+
+/********* Medium Devices *************/
+
+@media(min-width: 768px) and (max-width: 1199px){
+
+	/*[class^="col-"],[class*=" col-"]*/ .col-md-6,.col-md-12{
+		float: left;
+		
+		
+	}
+
+	.col-md-6{
+		width: 50%;
+	}
+	
+	.col-md-12{
+		width: 100%;
+	}
+
+}
+
+/******** Small Devices **************/
+
+@media(max-width: 767px){
+
+	/*[class^="col-"],[class*=" col-"]*/.col-sm-12{
+
+		float: left;
+		
+		
+	}
+
+	.col-sm-12{
+		width: 100%;
+	}
 }
