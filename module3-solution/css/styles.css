@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,600&display=swap');
+body{
+	font-size:16px;
+	color:#fff;
+	background-color: #5fa2ba;
+	font-family: 'Oxygen', sans-serif;
+}
+
+nav.navbar{
+	background-color: #65db9a;
+}
+nav .navbar-header{
+	padding-top: 20px;
+	height: 90px;
+}
+
+nav.navbar-default .navbar-brand{
+	font-size: 3.5vw;
+	font-weight: bold;
+	color: #663399;
+	
+}
+nav.navbar-default .navbar-brand a{
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+nav.navbar-default .navbar-toggle{
+	border: 2px solid #7e54ba;
+}
+
+nav.navbar-default .navbar-toggle>.icon-bar{
+	background-color: black;
+}
+
+nav.navbar-default ul{
+	background-color: #DDA0DD;
+	margin-top: 0;
+	margin-bottom:0;
+
+}
+
+nav.navbar-default ul .nav-item a:hover{
+	background-color: #d9c675;
+}
+
+.container-fluid p{
+	font-size: 1.2em;
+}
+
+li a{
+	font-size: 3.5vw;
+}
+
+.col-md-6,.col-sm-6,.col-sm-12{
+	padding: 15px;
+}
+
+section{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #e6637d;
+}
+
+body div#main-content.container-fluid {
+	margin:0px 20px 20px 20px;
+}
+
+body div.row{
+	margin-top: 20px;
+}
+
+nav.navbar-default ul .nav-item a{
+	width:100%;
+}
+
+h1#main-head.text-center{
+	margin-top: 0;
+}
